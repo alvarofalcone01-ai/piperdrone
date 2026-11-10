@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="es-AR" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Piper Drone Producciones | Drones y FPV en Firmat, Santa Fe</title>
+<meta name="description" content="Producción audiovisual con drones y FPV desde Firmat, Santa Fe, para empresas, hoteles, eventos, industria y eventos sociales. Pedí presupuesto online.">
+<meta name="theme-color" content="#060606">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_AR">
+<meta property="og:title" content="Piper Drone Producciones">
+<meta property="og:description" content="Perspectivas que venden. Producción audiovisual con drones y FPV desde Firmat, Santa Fe.">
+<meta property="og:image" content="assets/img/hero.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/jpeg" href="assets/img/logo.jpg">
+<link rel="apple-touch-icon" href="assets/img/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,500..900;1,62..125,500..900&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="preload" as="image" href="assets/img/hero.webp">
+<link rel="stylesheet" href="styles.css?v=20261110">
+<script>document.documentElement.classList.replace("no-js","js");</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Piper Drone Producciones",
+  "slogan": "Perspectivas que venden",
+  "description": "Producción audiovisual con drones y FPV para empresas, hoteles, eventos, industria y eventos sociales.",
+  "address": { "@type": "PostalAddress", "addressLocality": "Firmat", "addressRegion": "Santa Fe", "addressCountry": "AR" },
+  "areaServed": "Argentina",
+  "sameAs": ["https://www.youtube.com/@piperdroneproducciones4", "https://www.instagram.com/piperdronepro/"]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<!-- Arranque: secuencia de encendido del visor -->
+<div class="boot" id="boot" aria-hidden="true">
+  <div class="boot-frame">
+    <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
+    <div class="boot-logo"><img src="assets/img/logo.webp" width="88" height="88" alt=""></div>
+    <ul class="boot-log mono">
+      <li>Sistema <b>OK</b></li>
+      <li>GPS <b>33°27′S · 61°29′O</b></li>
+      <li>Batería <b>100%</b></li>
+      <li>Cámara <b>REC</b></li>
+    </ul>
+    <div class="boot-bar"><i></i></div>
+  </div>
+</div>
+
+<div class="cursor" id="cursor" aria-hidden="true"><span>Ver</span></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#hero" aria-label="Piper Drone Producciones, inicio">
+    <img class="mark" src="assets/img/logo.webp" width="44" height="44" alt="">
+    <span class="word"><span class="name">Piper <span class="g">Drone</span></span><small>Producciones</small></span>
+  </a>
+  <nav aria-label="Principal">
+    <a href="#trabajos">Trabajos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#vuelo">Cómo volamos</a>
+    <a class="btn btn-primary magnetic" href="#contacto"><span>Pedir presupuesto</span></a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="hero" aria-labelledby="heroTitle">
+    <div class="hero-media" aria-hidden="true">
+      <video class="bgvid" id="heroVid" muted loop playsinline preload="auto" poster="assets/img/hero.webp" data-src="assets/video/hero.mp4?v=20261110"></video>
+    </div>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <!-- HUD del visor -->
+    <div class="hud" aria-hidden="true">
+      <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
+      <div class="hud-tl mono"><span class="rec"><i></i>REC</span><span id="tc">00:00:00:00</span></div>
+      <div class="hud-tr mono">
+        <span>ALT <b id="alt">120</b> m</span>
+        <span>VEL <b id="vel">00</b> km/h</span>
+      </div>
+      <div class="hud-bl mono">33°27′S · 61°29′O · Firmat, Santa Fe</div>
+      <div class="hud-br mono">4K · 60 fps · F/2.8</div>
+      <div class="horizon" id="horizon"><i></i><b></b><i></i></div>
+    </div>
+
+    <div class="hero-body">
+      <p class="eyebrow mono reveal-up">Producción audiovisual aérea · Drone y FPV</p>
+      <h1 id="heroTitle" class="hero-title">
+        <span class="line"><span>Perspectivas</span></span>
+        <span class="line"><span>que <em>venden.</em></span></span>
+      </h1>
+      <div class="hero-foot">
+        <p class="lede reveal-up">Desde Firmat, Santa Fe, para empresas, hoteles, eventos, industria y eventos sociales. Tomas aéreas que cuentan en segundos lo que una foto no puede.</p>
+        <div class="cta-row reveal-up">
+          <a class="btn btn-primary magnetic" href="#contacto"><span>Pedir presupuesto</span></a>
+          <a class="btn btn-ghost magnetic" href="#trabajos"><span>Ver trabajos</span></a>
+        </div>
+      </div>
+    </div>
+
+    <a class="scroll-cue mono" href="#manifiesto" aria-label="Bajar a la siguiente sección"><span>Despegar</span><i></i></a>
+  </section>
+
+  <!-- RUBROS EN MOVIMIENTO -->
+  <div class="marquee" aria-label="Rubros">
+    <div class="marquee-track">
+      <ul role="list">
+        <li>Empresas</li><li>Hoteles</li><li>Eventos</li><li>Industria</li><li>Campo</li><li>Eventos sociales</li><li>FPV</li>
+      </ul>
+      <ul role="list" aria-hidden="true">
+        <li>Empresas</li><li>Hoteles</li><li>Eventos</li><li>Industria</li><li>Campo</li><li>Eventos sociales</li><li>FPV</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- MANIFIESTO + DATOS -->
+  <section class="manifesto" id="manifiesto">
+    <div class="wrap">
+      <p class="eyebrow mono">01 — Por qué desde el aire</p>
+      <p class="statement" id="statement">Un plano aéreo muestra el tamaño de un lugar, la cantidad de gente de un evento y el recorrido de una obra en un solo movimiento. Volamos con drone estabilizado y con FPV, editamos y entregamos el video listo para publicar.</p>
+
+      <dl class="stats">
+        <div class="stat">
+          <dt class="mono">Reproducciones del show en Comunal QQ</dt>
+          <dd><span class="count" data-to="19997">19.997</span></dd>
+        </div>
+        <div class="stat">
+          <dt class="mono">Publicaciones en Instagram</dt>
+          <dd><span class="count" data-to="272">272</span></dd>
+        </div>
+        <div class="stat">
+          <dt class="mono">Seguidores en Instagram</dt>
+          <dd><span class="count" data-to="5.3" data-dec="1">5,3</span><small>mil</small></dd>
+        </div>
+        <div class="stat">
+          <dt class="mono">Formas de volar</dt>
+          <dd><span class="count" data-to="2">2</span><small>drone + FPV</small></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- TRABAJOS: recorrido horizontal -->
+  <section class="works" id="trabajos" aria-labelledby="worksTitle">
+    <div class="works-head wrap">
+      <div>
+        <p class="eyebrow mono">02 — Trabajos</p>
+        <h2 id="worksTitle">Lo que ya volamos.</h2>
+      </div>
+      <p class="intro">Cada cuadro reproduce un tramo en silencio. Tocá uno para ver el video completo con sonido.</p>
+    </div>
+
+    <div class="reel" id="reel">
+      <div class="reel-track" id="reelTrack">
+
+        <article class="work" data-video="assets/video/show.mp4" data-title="Show en Comunal QQ" data-sum="Show en vivo con Jorge Rojas. Escenario, público y luces de celulares desde el aire.">
+          <div class="work-media">
+            <video class="loop" muted loop playsinline preload="none" poster="assets/img/show.webp" data-src="assets/video/show-loop.mp4?v=20261110"></video>
+          </div>
+          <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
+          <div class="work-top mono"><span class="rec"><i></i>01 / 05</span><span>1:09</span></div>
+          <div class="work-meta">
+            <span class="tag mono">Eventos · Show en vivo</span>
+            <h3>Show en Comunal QQ</h3>
+            <p>20 mil reproducciones en Instagram. El trabajo más visto del canal.</p>
+          </div>
+          <button class="work-open" type="button" data-cursor aria-label="Ver con sonido: Show en Comunal QQ"></button>
+        </article>
+
+        <article class="work" data-video="assets/video/firmat.mp4" data-title="Firmat, Santa Fe" data-sum="Festejo masivo en las calles de Firmat, seguido desde el aire.">
+          <div class="work-media">
+            <video class="loop" muted loop playsinline preload="none" poster="assets/img/firmat.webp" data-src="assets/video/firmat-loop.mp4?v=20261110"></video>
+          </div>
+          <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
+          <div class="work-top mono"><span class="rec"><i></i>02 / 05</span><span>1:47</span></div>
+          <div class="work-meta">
+            <span class="tag mono">Ciudad · Masivo</span>
+            <h3>Firmat, Santa Fe</h3>
+            <p>Miles de personas en la calle, en un plano que ninguna cámara de piso logra.</p>
+          </div>
+          <button class="work-open" type="button" data-cursor aria-label="Ver con sonido: Firmat, Santa Fe"></button>
+        </article>
+
+        <article class="work" data-video="assets/video/trompodromo.mp4" data-title="Trompódromo" data-sum="Encuentro de Fierreros Unidos. FPV pegado a los autos, entre la tierra y el humo.">
+          <div class="work-media">
+            <video class="loop" muted loop playsinline preload="none" poster="assets/img/trompodromo.webp" data-src="assets/video/trompodromo-loop.mp4?v=20261110"></video>
+          </div>
+          <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
+          <div class="work-top mono"><span class="rec"><i></i>03 / 05</span><span>1:25</span></div>
+          <div class="work-meta">
+            <span class="tag mono">Autos · FPV</span>
+            <h3>Trompódromo</h3>
+            <p>Vuelo FPV a ras del piso, siguiendo cada derrape.</p>
+          </div>
+          <button class="work-open" type="button" data-cursor aria-label="Ver con sonido: Trompódromo"></button>
+        </article>
+
+        <article class="work" data-video="assets/video/xv.mp4" data-title="Fiesta de XV" data-sum="Entrada al salón, vals y pista. Un recuerdo que se ve como una película.">
+          <div class="work-media">
+            <video class="loop" muted loop playsinline preload="none" poster="assets/img/xv.webp" data-src="assets/video/xv-loop.mp4?v=20261110"></video>
+          </div>
+          <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
+          <div class="work-top mono"><span class="rec"><i></i>04 / 05</span><span>1:24</span></div>
+          <div class="work-meta">
+            <span class="tag mono">Eventos sociales · Interior</span>
+            <h3>Fiesta de XV</h3>
+            <p>FPV dentro del salón: entrada, vals y pista.</p>
+          </div>
+          <button class="work-open" type="button" data-cursor aria-label="Ver con sonido: Fiesta de XV"></button>
+        </article>
+
+        <article class="work" data-video="assets/video/fpv.mp4" data-title="Freestyle por el pueblo" data-sum="Vuelo FPV al atardecer: bulevares, plaza y el pueblo desde arriba.">
+          <div class="work-media">
+            <video class="loop" muted loop playsinline preload="none" poster="assets/img/fpv.webp" data-src="assets/video/fpv-loop.mp4?v=20261110"></video>
+          </div>
+          <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
+          <div class="work-top mono"><span class="rec"><i></i>05 / 05</span><span>1:29</span></div>
+          <div class="work-meta">
+            <span class="tag mono">FPV · Atardecer</span>
+            <h3>Freestyle por el pueblo</h3>
+            <p>De la vereda al cielo en un solo plano, sin cortes.</p>
+          </div>
+          <button class="work-open" type="button" data-cursor aria-label="Ver con sonido: Freestyle por el pueblo"></button>
+        </article>
+
+        <div class="work-end">
+          <p class="mono">Más trabajos</p>
+          <a class="end-link" href="https://www.instagram.com/piperdronepro/" target="_blank" rel="noopener">@piperdronepro <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="reel-progress" aria-hidden="true"><i id="reelBar"></i></div>
+    </div>
+
+    <!-- Del canal de YouTube -->
+    <div class="channel wrap">
+      <div class="channel-head">
+        <h3>Del canal de YouTube</h3>
+        <a class="link mono" href="https://www.youtube.com/@piperdroneproducciones4" target="_blank" rel="noopener">Ver canal ↗</a>
+      </div>
+      <div class="channel-grid">
+        <button class="yt-card" type="button" data-yt="YHoL9ySCsQQ" data-title="Puerto Norte, Rosario" data-sum="Vuelo nocturno por el centro de Rosario." data-cursor>
+          <img src="assets/img/yt-YHoL9ySCsQQ.webp" alt="" loading="lazy" width="1280" height="720">
+          <span class="yt-meta"><span class="mono">Vuelo nocturno · 1:26</span><b>Puerto Norte, Rosario</b></span>
+        </button>
+        <button class="yt-card" type="button" data-yt="HlOA3XzhvEI" data-title="Cyclekarts, Firmat" data-sum="Cyclekarts en Firmat, Santa Fe, 2026." data-cursor>
+          <img src="assets/img/yt-HlOA3XzhvEI.webp" alt="" loading="lazy" width="1280" height="720">
+          <span class="yt-meta"><span class="mono">Carreras · 1:33</span><b>Cyclekarts, Firmat</b></span>
+        </button>
+        <button class="yt-card" type="button" data-yt="ACLYnXaTbGg" data-title="Skate freestyle" data-sum="Sesión de skate freestyle." data-cursor>
+          <img src="assets/img/yt-ACLYnXaTbGg.webp" alt="" loading="lazy" width="1280" height="720">
+          <span class="yt-meta"><span class="mono">Freestyle · 0:43</span><b>Skate freestyle</b></span>
+        </button>
+        <button class="yt-card" type="button" data-yt="nsQlyvE1Tr8" data-title="Siendo feliz en la feliz" data-sum="Video de 3 minutos 24 segundos, junio de 2024." data-cursor>
+          <img src="assets/img/yt-nsQlyvE1Tr8.webp" alt="" loading="lazy" width="1280" height="720">
+          <span class="yt-meta"><span class="mono">Video largo · 3:24</span><b>Siendo feliz en la feliz</b></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="services" id="servicios" aria-labelledby="servTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow mono">03 — Servicios</p>
+        <h2 id="servTitle">Qué se graba <br>desde el aire.</h2>
+      </div>
+      <ol class="svc-list" id="svcList" role="list">
+        <li class="svc" data-preview="assets/img/firmat.webp">
+          <span class="svc-n mono">01</span>
+          <h3>Empresas</h3>
+          <p>Video institucional con tomas aéreas de instalaciones, equipos y entorno.</p>
+          <span class="svc-arrow" aria-hidden="true">→</span>
+        </li>
+        <li class="svc" data-preview="assets/img/yt-YHoL9ySCsQQ.webp">
+          <span class="svc-n mono">02</span>
+          <h3>Hoteles</h3>
+          <p>Exteriores, accesos y entorno del hotel, con tomas aéreas y recorridos con FPV.</p>
+          <span class="svc-arrow" aria-hidden="true">→</span>
+        </li>
+        <li class="svc" data-preview="assets/img/show.webp">
+          <span class="svc-n mono">03</span>
+          <h3>Eventos</h3>
+          <p>Shows, carreras y encuentros de autos. Planos del lugar y del público desde arriba.</p>
+          <span class="svc-arrow" aria-hidden="true">→</span>
+        </li>
+        <li class="svc" data-preview="assets/img/trompodromo.webp">
+          <span class="svc-n mono">04</span>
+          <h3>Industria y campo</h3>
+          <p>Plantas, obras y establecimientos productivos. También remates rurales.</p>
+          <span class="svc-arrow" aria-hidden="true">→</span>
+        </li>
+        <li class="svc" data-preview="assets/img/xv.webp">
+          <span class="svc-n mono">05</span>
+          <h3>Eventos sociales</h3>
+          <p>Cumpleaños de 15, aniversarios y celebraciones, con tomas aéreas e interiores.</p>
+          <span class="svc-arrow" aria-hidden="true">→</span>
+        </li>
+        <li class="svc" data-preview="assets/img/fpv.webp">
+          <span class="svc-n mono">06</span>
+          <h3>Drone FPV</h3>
+          <p>Vuelos de cerca, a velocidad y en espacios cerrados, que un drone convencional no hace.</p>
+          <span class="svc-arrow" aria-hidden="true">→</span>
+        </li>
+      </ol>
+    </div>
+    <div class="svc-float" id="svcFloat" aria-hidden="true"><img alt="" id="svcImg"><span class="c tl"></span><span class="c br"></span></div>
+  </section>
+
+  <!-- DOS FORMAS DE VOLAR -->
+  <section class="flight" id="vuelo" aria-labelledby="flightTitle">
+    <div class="wrap sec-head">
+      <p class="eyebrow mono">04 — Cómo volamos</p>
+      <h2 id="flightTitle">Dos formas de volar, <br>un mismo video.</h2>
+    </div>
+    <div class="split">
+      <figure class="pane" id="paneA">
+        <div class="pane-media"><video class="loop" muted loop playsinline preload="none" poster="assets/img/firmat.webp" data-src="assets/video/firmat-loop.mp4?v=20261110"></video></div>
+        <figcaption>
+          <span class="mono">Modo A</span>
+          <h3>Drone estabilizado</h3>
+          <ul role="list">
+            <li>Planos altos, amplios y estables</li>
+            <li>Muestra el lugar completo y la cantidad de gente</li>
+            <li>Ideal para empresas, hoteles, campo y obras</li>
+          </ul>
+        </figcaption>
+      </figure>
+      <figure class="pane" id="paneB">
+        <div class="pane-media"><video class="loop" muted loop playsinline preload="none" poster="assets/img/trompodromo.webp" data-src="assets/video/trompodromo-loop.mp4?v=20261110"></video></div>
+        <figcaption>
+          <span class="mono">Modo B</span>
+          <h3>FPV</h3>
+          <ul role="list">
+            <li>Vuelo en primera persona, cerca y a velocidad</li>
+            <li>Entra en salones, galpones y pasa entre objetos</li>
+            <li>Ideal para autos, shows, fiestas y recorridos</li>
+          </ul>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="process" aria-labelledby="procTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow mono">05 — Proceso</p>
+        <h2 id="procTitle">De la consulta <br>al video publicado.</h2>
+      </div>
+      <ol class="steps" role="list">
+        <li class="step">
+          <span class="step-n">01</span>
+          <h3>Consulta</h3>
+          <p>Contás qué querés mostrar, dónde y para qué lo vas a usar.</p>
+        </li>
+        <li class="step">
+          <span class="step-n">02</span>
+          <h3>Vuelo</h3>
+          <p>Se coordina fecha, lugar y clima, y se graba en el lugar.</p>
+        </li>
+        <li class="step">
+          <span class="step-n">03</span>
+          <h3>Entrega</h3>
+          <p>Recibís el video editado, listo para publicar.</p>
+        </li>
+      </ol>
+      <div class="flightpath" aria-hidden="true"><svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path id="fp" d="M0 50 C 200 50, 260 10, 420 14 S 760 52, 900 30 S 1120 8, 1200 10" /></svg></div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto" aria-labelledby="ctTitle">
+    <div class="contact-bg" aria-hidden="true">
+      <video class="loop" muted loop playsinline preload="none" poster="assets/img/show.webp" data-src="assets/video/show-loop.mp4?v=20261110"></video>
+    </div>
+    <div class="wrap contact-grid">
+      <div class="contact-copy">
+        <p class="eyebrow mono">06 — Contacto</p>
+        <h2 id="ctTitle" class="big">Contá qué <br>querés <em>grabar.</em></h2>
+        <p class="intro">Base en Firmat, Santa Fe. Completá los datos y se arma el mensaje. Lo enviás y recibís disponibilidad y precio.</p>
+        <ul class="links" role="list">
+          <li><a href="https://www.instagram.com/piperdronepro/" target="_blank" rel="noopener">Instagram ↗</a></li>
+          <li><a href="https://www.youtube.com/@piperdroneproducciones4" target="_blank" rel="noopener">YouTube ↗</a></li>
+        </ul>
+      </div>
+
+      <form class="brief" id="brief" autocomplete="off" novalidate>
+        <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
+        <p class="brief-title mono"><span class="rec"><i></i>Plan de vuelo</span></p>
+        <div class="field">
+          <label class="mono" for="tipo">Tipo de trabajo</label>
+          <select id="tipo" name="tipo">
+            <option>Empresa</option>
+            <option>Hotel</option>
+            <option>Evento</option>
+            <option>Industria o campo</option>
+            <option>Evento social</option>
+            <option>Drone FPV</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="mono" for="fecha">Fecha aproximada</label>
+          <input id="fecha" name="fecha" type="text" placeholder="Ej: mediados de diciembre">
+        </div>
+        <div class="field full-w">
+          <label class="mono" for="lugar">Lugar</label>
+          <input id="lugar" name="lugar" type="text" placeholder="Ciudad y zona o dirección">
+        </div>
+        <div class="field full-w">
+          <label class="mono" for="detalle">Qué querés mostrar</label>
+          <textarea id="detalle" name="detalle" placeholder="Una o dos líneas alcanzan"></textarea>
+        </div>
+        <pre class="preview" id="preview" aria-label="Vista previa del mensaje">Hola, quiero cotizar una grabación con drone.
+Tipo de trabajo: Empresa.</pre>
+        <div class="actions">
+          <a class="btn btn-primary magnetic" id="send" href="https://www.instagram.com/piperdronepro/" target="_blank" rel="noopener"><span>Escribir por Instagram</span></a>
+          <button class="btn btn-ghost" id="copy" type="button"><span>Copiar mensaje</span></button>
+          <span class="status" id="status" role="status"></span>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="footer-word" aria-hidden="true">Piper <span>Drone</span></p>
+    <div class="footer-row">
+      <span class="who"><img class="mark" src="assets/img/logo.webp" width="32" height="32" alt=""><span>© 2026 Piper Drone Producciones · Firmat, Santa Fe, Argentina</span></span>
+      <span class="footer-links"><a href="https://www.youtube.com/@piperdroneproducciones4" target="_blank" rel="noopener">YouTube</a><a href="https://www.instagram.com/piperdronepro/" target="_blank" rel="noopener">Instagram</a><a href="#hero">Volver arriba ↑</a></span>
+    </div>
+  </div>
+</footer>
+
+<dialog class="lb" id="lightbox" aria-labelledby="lbTitle">
+  <button class="lb-close" id="lbClose" type="button" aria-label="Cerrar">✕</button>
+  <div class="lb-frame" id="lbFrame"></div>
+  <div class="lb-cap"><h3 id="lbTitle"></h3><p id="lbSum"></p></div>
+</dialog>
+
+<script defer src="lib/gsap.min.js?v=3.12.5"></script>
+<script defer src="lib/ScrollTrigger.min.js?v=3.12.5"></script>
+<script defer src="main.js?v=20261110"></script>
+</body>
+</html>
